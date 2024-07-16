@@ -33,15 +33,4 @@ VALUES
 
 
 INSERT INTO login (user_id, userName, password)
-VALUES
-(1, 'user1', '44.paper'),
-(2, 'user2', '45.paper'),
-(3, 'user3', '46.paper'),
-(4, 'user4', '47.paper'),
-(5,'user5', '48.paper'),
-(6, 'user6', '49.paper'),
-(7, 'user7', '50.paper'),
-(8, 'user8', '51.paper'),
-(9, 'user9', '52.paper'),
-(10, 'user10', '53.paper'),
-
+SELECT user_id, userName, password FROM Sign_Up; 
